@@ -1,0 +1,64 @@
+<!-- <ActionBar>
+  <Label text="GDG Sacramento" class="title" textAlignment="center" textDecoration="underline"></Label>
+</ActionBar>
+
+<Label text="GDG Sacramento" class="title" textAlignment="center" textDecoration="underline"></Label> -->
+
+<StackLayout>
+  <Label [text]="'Tapped:' + myNumber" textAlignment="center"></Label>
+  <Button text="do nothing" (tap)="onTap($event)"></Button>
+</StackLayout>
+
+
+<!-- <GridLayout>
+	<ScrollView>
+    <TabView selectedTabTextColor="white" 
+         tabBackgroundColor="orangered"
+         tabTextFontSize="16"
+         androidSelectedTabHighlightColor="green">
+    <StackLayout *tabItem="{title: 'First Tab', iconSource: 'res://icon', textTransform: 'lowercase'}" >
+        <Label text="First Tab" textWrap="true" class="m-15 h2 text-left" color="blue"></Label>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Second Tab', iconSource: 'res://icon', textTransform: 'lowercase'}">
+        <Label text="Second Tab" textWrap="true" class="m-15 h2 text-left" color="blue"></Label>
+    </StackLayout>
+</TabView>
+		<StackLayout class="home-panel">
+			<!--Add your page content here-->
+			<!-- <Label textWrap="true" text="Play with NativeScript!" class="h2 description-label"></Label>
+			<Label textWrap="true" text="Write code in the editor or drag and drop components to build a NativeScript mobile application."
+			 class="h2 description-label"></Label>
+			<Label textWrap="true" text="Scan the QR code with your mobile device and watch the changes sync live while you play with the code."
+			 class="h2 description-label"></Label>
+      <Slider value="50"></Slider>
+      <Switch checked="true"></Switch>
+      <Switch checked="true"></Switch>
+      <Switch checked="true"></Switch>
+      <Progress value="50" maxValue="100"></Progress>
+      <ListView [items]="countries" (itemTap)="onItemTap($event)"
+        style="height:1250px">
+        <ng-template let-country="item">
+            <FlexboxLayout flexDirection="row">
+                <Image [src]="country.imageSrc" class="thumb img-circle"></Image>
+                <Label [text]="'country.name'" class="t-12" verticalAlignment="center" style="width: 60%">
+                </Label>
+            </FlexboxLayout>
+        </ng-template>
+    </ListView>
+      <DatePicker year="1980" month="4" day="20"
+        [minDate]="minDate" [maxDate]="maxDate"
+        (dateChange)="onDateChanged($event)" 
+        (dayChange)="onDayChanged($event)" 
+        (monthChange)="onMonthChanged($event)" 
+        (yearChange)="onYearChanged($event)" 
+        (loaded)="onDatePickerLoaded($event)"
+        verticalAlignment="center">
+      </DatePicker>
+      <Slider value="10" minValue="0" maxValue="100"
+        (valueChange)="onSliderValueChange($event)">
+      </Slider>
+      
+
+    </StackLayout>
+  </ScrollView>
+</GridLayout> --> -->

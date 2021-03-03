@@ -1,0 +1,10 @@
+.demo-chart {
+  height: 400px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

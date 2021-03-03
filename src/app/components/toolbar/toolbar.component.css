@@ -1,0 +1,14 @@
+mat-toolbar {
+  justify-content: space-between;
+  background-image: url("../../../assets/BackgroundLight.jpg");
+  background-size: cover;
+}
+
+.title {
+  font-size: 1.25em;
+  letter-spacing: 0.15em;
+}
+
+.filler-span {
+  flex-grow: 1;
+}

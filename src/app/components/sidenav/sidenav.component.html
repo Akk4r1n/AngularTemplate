@@ -1,0 +1,19 @@
+<mat-sidenav-container>
+
+  <!-- Drawer -->
+  <mat-sidenav class="mat-elevation-z5" [opened]="sidenavOpened" mode="side" [mode]="sidenavMode" [style.width]="sidenavWidth">
+
+    <!-- extra div because of weird sidenav inner elements which you cant style. Reference https://github.com/angular/components/issues/13983 for the issue -->
+    <div class="sidenav-full">
+      <h1>Menu</h1>
+      <mat-divider></mat-divider>
+    </div>
+
+  </mat-sidenav>
+
+  <!-- Actual content -->
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

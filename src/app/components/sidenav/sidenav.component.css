@@ -1,0 +1,36 @@
+mat-sidenav-container {
+  width: 100%;
+  /* height: calc(100% - 64px); */
+  height: 100%;
+  position: fixed;
+}
+
+mat-sidenav {
+  padding: 1%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("../../../assets/BackgroundLight.jpg");
+  background-size: cover;
+  text-align: center;
+  opacity: 0.8;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+mat-icon {
+  margin-right: 5px;
+}
+
+.sidenav-full {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-sidenav-content {
+  padding: 1%;
+  box-sizing: border-box;
+  background-color: rgb(213, 225, 238);
+}
