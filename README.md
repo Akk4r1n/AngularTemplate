@@ -28,5 +28,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Testing nativescript
 
-Run tns doctor to test your setup.
-Run tns run android to test the app on your physical phone or emulator (need one connected -> tns devices / adb devices)
+Run `tns doctor` to test your setup.
+
+Run `tns run android` to test the app on your physical phone or emulator. You need to have a physical or virtual device to run the app. Use `tns devices` or `adb devices` to show both your physical and virtual devices
+
+## Connect your physical phone to your computer
+Commands like `tns run android` wont work if you dont have any devices (physical or virtual). Some quick steps if you want to connect your physical phones are:
+* Activate developer options on your phone
+* Activate USB-Debugging
+* Use a cable to connect your phone to your pc
+* Accept the incoming connection from your computer on the phone
+* Now use `adb tcpip 5555` to connect to your phone wireless
+* Type `tns devices`. If you see your phone everythings working.
+* Remove the cable
+* The wireless connection should now work. Use `tns run android` with this app to test it.
